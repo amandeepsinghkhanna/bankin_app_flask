@@ -1,0 +1,66 @@
+<html>
+<head> 
+
+	<title> Bank Loans Application  </title> 
+	<br>
+	<center> <img style="border:5 solid yellow" src="static/images/alabs.JPG" height="32" width="176" alt="image">	
+	<h1> <b> <u> <center> Credit Score Calculator - Application Status</u> </b> </h1> 
+</head> 
+
+	<style type="text/css">
+		{
+			padding:0;
+			margin:0;
+		}
+		.bgimage{
+			width: 100%;
+			height: 600px;
+			background: url(static/images/bank7.jfif) no-repeat 50% 20%">
+		}
+		.containter{
+			width:960px;
+			height:600px;
+			position:relative;
+			margin: 0 auto;
+		}
+		
+	</style>
+	
+	<div style="background-image: url('static/images/bank8.jfif'); 
+	            background-repeat: no-repeat;   
+				background-attachment: fixed; 
+				background-size: cover;
+				background-size: 100% 95%;">
+
+
+
+<body>
+	<div class = "bgimage">
+		<div class = "containter">
+			  <form action="/result" method="POST">
+			  <br>
+			  <center> <font face="calibri body" color="white" size="5"> <label for="employ">No Months with Current Employer</label> </font>
+			  <input type="text" id="employ" name="employ">[In Months]
+				<br>
+			  <center> <font face="calibri body" color="white" size="5"> <label for="creddebt">Credit To Debt Ratio</label></font>
+				<input type="text" id="creddebt" name="creddebt">btw:[0-5]
+				<br>
+			  <center> <font face="calibri body" color="white" size="5"> <label for="debtinc">Debt To Income Ratio</label> </font>
+				<input type="text" id="debtinc" name="debtinc">btw:[0-100]
+				<br>
+			  <center> <font face="calibri body" color="white" size="5"> <label for="address">No Months Staying in Current Address</label> </font>
+				<input type="text" id="address" name="address">[In Months]
+				<br>
+				<br>
+				<br>
+				<input type="submit" value="Submit">
+				<br>
+				<br>
+				<center> <img style="border:5 solid yellow" src="static/images/creditscore.JPG" height="250" width="750" alt="image">
+		  </form>
+		</div>
+			
+</body>
+
+
+</html>

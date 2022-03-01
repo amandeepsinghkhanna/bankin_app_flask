@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+<head> 
+
+	<title> Credit Score Results  </title> 
+	<center> <img style="border:5 solid yellow" src="static/images/alabs.JPG" height="32" width="176" alt="image">	
+		
+</head> 
+
+	<div style="background-image: url('static/images/bank7.jfif'); 
+	            background-repeat: no-repeat;   
+				background-attachment: fixed; 
+				background-size: cover;
+				background-size: 100% 95%;">
+
+   <body>
+    <br>
+    <h1> <b> <u> <center> Applicant Details </u> </b> </h1> 
+	<h5> No. Months with Current Employer: {{ employ }}</h5>
+	<h5> Credit To Debt Ratio: {{ creddebt }}</h5>
+	<h5> Debt To Income Ratio: {{ debtinc }}</h5>
+	<h5> No. Months Staying in Current Address: {{ address }}</h5>
+	<h5> --------------------------------------------------------------------------------------</h5>
+    <h2> The Applicant Credit Score: {{ credit_score }}</h2>
+    <h2> Final Decision:  {{ prediction }}</h2> 
+   
+	   <form method="get" action="/index">
+		<button type="submit">GoBack</button>
+		<br>
+		<br>
+		<center> <img style="border:5 solid yellow" src="static/images/creditscore.JPG" height="150" width="600" alt="image">
+	   </form>
+   </body>
+</html>
